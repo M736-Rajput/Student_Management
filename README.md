@@ -1,6 +1,7 @@
 # Student_Management
 Student Project
 while True:
+    
     print("\nStudent Record Management")
     print("1. Add Student")
     print("2. View Student")
@@ -8,9 +9,9 @@ while True:
     print("4. Update Marks")
     print("5. Percentage")
     print("6. Exit")
-
+    
     ch = input("Enter choice: ")
-
+    
     if ch == "1":
         student = input("Enter student name: ")
         subjects = ["Maths", "Science", "SST", "Hindi"]
